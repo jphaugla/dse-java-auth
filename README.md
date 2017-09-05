@@ -1,4 +1,4 @@
-# dse-java-krb
+# dse-java-auth
 Simple example using DSE for authentication with the DataStax Java driver.
 
 # Pre-reqs

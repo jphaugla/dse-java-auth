@@ -8,7 +8,7 @@ public class AuthTest {
 
 		String node = "jphmac";
 		String username = "cassandra";
-		String upass = "Lucas612";
+		String upass = "fakepass";
 
 		Cluster cluster;
 		Session session;
