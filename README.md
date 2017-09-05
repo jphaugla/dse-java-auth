@@ -4,13 +4,13 @@ Simple example using DSE for authentication with the DataStax Java driver.
 # Pre-reqs
 
 1. DSE is configured for DseAuthorizer authentication (http://docs.datastax.com/en/dse/5.1/dse-admin/datastax_enterprise/security/Auth/secEnableDseAuthenticator.html)
-2. Java JDK (with JCE installed if your keytab uses AES)
+2. Java JDK 
 
 
 # Installation
 
 1. git clone https://github.com/jphaugla/dse-java-auth
-2. edit src/main/java/com/dse/demo/app/KrbTest.java
+2. edit src/main/java/com/dse/demo/app/AuthTest.java
   * set "node" to an IP from your DSE cluster
   * set "username" to the principal username from service_principal in your dse.yaml file
     * most likely "dse" or "cassandra" depending on how you installed
